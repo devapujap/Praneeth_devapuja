@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Praneeth_devapuja/static/css/main.313dde71.css",
-    "main.js": "/Praneeth_devapuja/static/js/main.efcac590.js",
-    "static/media/ashwini_veddamoni.png": "/Praneeth_devapuja/static/media/ashwini_veddamoni.2ef1cd9a5de79e6a6656.png",
+    "main.css": "/Praneeth_devapuja/static/css/main.912a8a59.css",
+    "main.js": "/Praneeth_devapuja/static/js/main.02f20d4f.js",
     "static/media/UBS-logo.jpg": "/Praneeth_devapuja/static/media/UBS-logo.8a14859a4fa9ea268f7e.jpg",
     "static/media/matter_protocal.jpg": "/Praneeth_devapuja/static/media/matter_protocal.5cf96b9d287581d14fd7.jpg",
+    "static/media/Profile.jpeg": "/Praneeth_devapuja/static/media/Profile.8975bd91fd8c9201639c.jpeg",
     "static/media/Legacy.jpg": "/Praneeth_devapuja/static/media/Legacy.3e0e1476ec50131af70a.jpg",
     "static/media/BNY_logo_2024.svg.png": "/Praneeth_devapuja/static/media/BNY_logo_2024.svg.897fc80dd656a0ff6d7a.png",
     "static/media/kubernetes.png": "/Praneeth_devapuja/static/media/kubernetes.7cdb846c2eabcda532bb.png",
@@ -19,11 +19,11 @@
     "static/media/oracle.png": "/Praneeth_devapuja/static/media/oracle.4901d25e592f0aec9d2c.png",
     "static/media/javascript.png": "/Praneeth_devapuja/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/Praneeth_devapuja/index.html",
-    "main.313dde71.css.map": "/Praneeth_devapuja/static/css/main.313dde71.css.map",
-    "main.efcac590.js.map": "/Praneeth_devapuja/static/js/main.efcac590.js.map"
+    "main.912a8a59.css.map": "/Praneeth_devapuja/static/css/main.912a8a59.css.map",
+    "main.02f20d4f.js.map": "/Praneeth_devapuja/static/js/main.02f20d4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.313dde71.css",
-    "static/js/main.efcac590.js"
+    "static/css/main.912a8a59.css",
+    "static/js/main.02f20d4f.js"
   ]
 }
