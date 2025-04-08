@@ -49,7 +49,7 @@ const About = () => {
             <p><FaMapMarkerAlt className="icon" />Texas | USA</p>
             <p>
               <FaEnvelope className="icon" />
-              <a href="mailto:Ashwiniveddamoni02@gmail.com">praneethdevapuja@gmail.com</a>
+              <a href="mailto:praneethdevapuja@gmail.com">praneethdevapuja@gmail.com</a>
             </p>
           </div>
 

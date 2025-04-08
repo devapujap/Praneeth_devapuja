@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 96%; /* Full width */
+    width: 100%; /* Full width */
     height: auto;
     background-color: #ed3734;
     display: flex;
