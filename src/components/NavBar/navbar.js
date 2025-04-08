@@ -1,6 +1,6 @@
-import React from 'react';
+    import React from 'react';
 import './navbar.css';
-import profilePic from '../../assets/ashwini_veddamoni.png';
+import profilePic from '../../assets/Profile.jpeg';
 import { Link } from 'react-scroll';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 

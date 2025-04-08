@@ -1,53 +1,48 @@
-/* Sidebar Navigation */
+/* Navbar - Top Horizontal */
 .navbar {
     position: fixed;
     top: 0;
     left: 0;
-    height: 135vh; /* Full height */
-    width: 250px; /* Sidebar width */
-    background-color: #ed3734; /* Sidebar Background Color */
+    width: 96%; /* Full width */
+    height: auto;
+    background-color: #ed3734;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    padding-left: 0px;
     align-items: center;
-    padding-top: 100px;
-    z-index: 100; /* Ensure it stays on top */
     justify-content: space-between;
-    padding: 10px 30px;
-
+    padding: 10px 50px;
+    z-index: 100;
 }
 
-/* Profile Image Box - Circle Frame */
+/* Profile Image Box */
 .profile-box {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 30px;
-    margin-bottom: -100%;
+    margin: 0;
+    padding-right: 100px;
 }
 
 /* Profile Image */
 .profile-image {
     background: #fff;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;     /* Makes the image itself a circle */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
     object-fit: cover;
-    border: 2px solid black; /* Optional: adds a white border around image */
+    border: 2px solid black;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Navigation Links */
 .desktopMenu {
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: row;
+    gap: 30px;
 }
 
 .desktopMenuListItem {
     color: white;
-    text-align: center;
-    padding: 15px 0px;
-    width: 100%;
     cursor: pointer;
     transition: color 0.3s ease, background 0.3s ease;
     font-weight: bold;
@@ -58,57 +53,45 @@
     background-color: transparent;
 }
 
-/* Active Class */
 .active {
     color: black;
     font-weight: bold;
     background-color: transparent;
-    border-left: none;
-    padding: 15px 0px;
+    border-bottom: 2px solid black;
 }
 
- Social Media Icons
+/* Social Media Icons */
 .social-icons {
     display: flex;
     gap: 15px;
-    margin-top: auto; /* Pushes to the bottom */
-    margin-bottom: 300px;
+    margin: 0;
 }
 
 .social-icon {
-    font-size: 41px;
+    font-size: 30px;
     color: white;
     transition: color 0.3s ease-in-out;
     cursor: pointer;
-    align-items: center;
 }
 
 .linkedin:hover {
-    color: #0077b5; /* LinkedIn Blue */
+    color: #0077b5;
 }
 
 .github:hover {
-    color: #333; /* GitHub Dark */
+    color: #333;
 }
 
-/* Adjust page content to prevent overlap */
+/* Adjust page content */
 .content {
-    margin-left: 260px; /* Space for sidebar */
+    margin-top: 100px; /* Space for top navbar */
     padding: 20px;
 }
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    .navbar {
-        width: 200px;
-    }
-
-    .profile-box {
-        width: 100px;
-        height: 100px;
-    }
-
-    .content {
-        margin-left: 210px;
+    .desktopMenu {
+        flex-direction: column;
+        gap: 10px;
     }
 }

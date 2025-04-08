@@ -43,13 +43,13 @@ const About = () => {
       <div className="about-container">
         {/* Left: About Content */}
         <div className="about-details">
-          <h1 className="about-name">ASHWINI VEDDAMONI</h1>
+          <h1 className="about-name">Praneeth Devapuja</h1>
 
           <div className="contact-info">
             <p><FaMapMarkerAlt className="icon" />Texas | USA</p>
             <p>
               <FaEnvelope className="icon" />
-              <a href="mailto:Ashwiniveddamoni02@gmail.com">Ashwiniveddamoni02@gmail.com</a>
+              <a href="mailto:Ashwiniveddamoni02@gmail.com">praneethdevapuja@gmail.com</a>
             </p>
           </div>
 
