@@ -1,0 +1,175 @@
+/* Experience Section */
+#experience {
+    min-height: 100vh;
+    padding: 50px 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #222;
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+}
+
+/* Timeline Container */
+.timeline {
+    position: relative;
+    padding: 40px 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+/* Vertical Line (Spine) */
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 100%;
+    background-color: #ec4845;
+}
+
+/* Timeline Items */
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px 0;
+}
+
+/* Alternating Positioning */
+.timeline-item.left {
+    left: 0;
+}
+
+.timeline-item.right {
+    left: 50%;
+}
+
+.timeline-dot {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+    height: 18px;
+    background-color: white;
+    border: 4px solid #ec4845;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+/* Timeline Card Content */
+.timeline-content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    transition: 0.3s ease-in-out;
+}
+
+/* Card Hover */
+.timeline-content:hover {
+    border-color: #ec4845;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Left and Right Adjustments */
+.timeline-item.left .timeline-content {
+    margin-left: auto;
+    margin-right: 30px;
+    text-align: right;
+}
+
+.timeline-item.right .timeline-content {
+    margin-left: 30px;
+    margin-right: auto;
+    text-align: left;
+}
+
+/* Experience Header (Logo + Title + Date) */
+.exp-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.exp-logo-container {
+    width: 60px;
+    height: 60px;
+    background: #f8f8f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+.exp-logo {
+    width: 50px;
+    height: auto;
+    object-fit: contain;
+}
+
+.exp-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.exp-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+}
+
+.exp-date {
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.exp-company {
+    font-size: 18px;
+    color: #666;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+/* Responsive Layout: Stack Cards Vertically */
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 20px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 40px;
+        margin-bottom: 40px;
+    }
+
+    .timeline-item.left,
+    .timeline-item.right {
+        left: 0;
+    }
+
+    .timeline-item.left .timeline-content,
+    .timeline-item.right .timeline-content {
+        margin: 0;
+        text-align: left;
+    }
+
+    .timeline-dot {
+        left: 20px;
+    }
+}

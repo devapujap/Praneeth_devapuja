@@ -1,0 +1,89 @@
+/* Education Section */
+#education {
+    min-height: auto;
+    padding: 50px;
+    background-color:rgb(255, 255, 255); /* Matches About page background */
+    text-align:left ;
+    margin-bottom: 0px; /* Remove extra margin */
+    padding-bottom: 20px; /* Adjust spacing */
+}
+
+/* Section Title */
+/* Move the title to the right */
+.section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #222;
+    margin-bottom: 30px;
+    text-align: left; /* Aligns left by default */
+    margin-left: 50px; /* Adjust this value to move right */
+    margin-top: 0; /* Ensure no extra top margin */
+    padding-top: 10px;
+}
+
+
+/* Grid Layout */
+.education-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Education Item (Card Style) */
+.education-item {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.education-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* University Logo */
+.edu-logo {
+    width: 80px;  /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Degree Title */
+.edu-degree {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 5px;
+}
+
+/* Duration */
+.edu-duration {
+    font-size: 16px;
+    font-weight: 600;
+    color: #c15d3c;
+}
+
+/* University Name */
+.edu-university {
+    font-size: 18px;
+    font-weight: 600;
+    color: #666;
+    margin: 10px 0;
+}
+/*gpa*/
+
+/* Description */
+.edu-description {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.5;
+}
+.education-card {
+    margin-bottom: 20px; /* Maintain spacing */
+}
