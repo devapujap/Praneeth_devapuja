@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Praneeth_devapuja/static/css/main.912a8a59.css",
-    "main.js": "/Praneeth_devapuja/static/js/main.02f20d4f.js",
+    "main.css": "/Praneeth_devapuja/static/css/main.801513f1.css",
+    "main.js": "/Praneeth_devapuja/static/js/main.e329dddc.js",
     "static/media/UBS-logo.jpg": "/Praneeth_devapuja/static/media/UBS-logo.8a14859a4fa9ea268f7e.jpg",
     "static/media/matter_protocal.jpg": "/Praneeth_devapuja/static/media/matter_protocal.5cf96b9d287581d14fd7.jpg",
     "static/media/Profile.jpeg": "/Praneeth_devapuja/static/media/Profile.8975bd91fd8c9201639c.jpeg",
@@ -19,11 +19,11 @@
     "static/media/oracle.png": "/Praneeth_devapuja/static/media/oracle.4901d25e592f0aec9d2c.png",
     "static/media/javascript.png": "/Praneeth_devapuja/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/Praneeth_devapuja/index.html",
-    "main.912a8a59.css.map": "/Praneeth_devapuja/static/css/main.912a8a59.css.map",
-    "main.02f20d4f.js.map": "/Praneeth_devapuja/static/js/main.02f20d4f.js.map"
+    "main.801513f1.css.map": "/Praneeth_devapuja/static/css/main.801513f1.css.map",
+    "main.e329dddc.js.map": "/Praneeth_devapuja/static/js/main.e329dddc.js.map"
   },
   "entrypoints": [
-    "static/css/main.912a8a59.css",
-    "static/js/main.02f20d4f.js"
+    "static/css/main.801513f1.css",
+    "static/js/main.e329dddc.js"
   ]
 }
