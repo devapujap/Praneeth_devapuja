@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Praneeth_devapuja/static/css/main.801513f1.css",
-    "main.js": "/Praneeth_devapuja/static/js/main.b9149811.js",
+    "main.js": "/Praneeth_devapuja/static/js/main.a9f2058f.js",
     "static/media/UBS-logo.jpg": "/Praneeth_devapuja/static/media/UBS-logo.8a14859a4fa9ea268f7e.jpg",
     "static/media/matter_protocal.jpg": "/Praneeth_devapuja/static/media/matter_protocal.5cf96b9d287581d14fd7.jpg",
     "static/media/Profile.jpeg": "/Praneeth_devapuja/static/media/Profile.8975bd91fd8c9201639c.jpeg",
@@ -20,10 +20,10 @@
     "static/media/javascript.png": "/Praneeth_devapuja/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/Praneeth_devapuja/index.html",
     "main.801513f1.css.map": "/Praneeth_devapuja/static/css/main.801513f1.css.map",
-    "main.b9149811.js.map": "/Praneeth_devapuja/static/js/main.b9149811.js.map"
+    "main.a9f2058f.js.map": "/Praneeth_devapuja/static/js/main.a9f2058f.js.map"
   },
   "entrypoints": [
     "static/css/main.801513f1.css",
-    "static/js/main.b9149811.js"
+    "static/js/main.a9f2058f.js"
   ]
 }
