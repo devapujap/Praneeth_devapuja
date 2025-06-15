@@ -1,35 +1,35 @@
 import React from "react";
 import "./experience.css";
 import UBSLogo from "../../assets/UBS-logo.jpg";
-import BNYLogo from "../../assets/BNY_logo_2024.svg.png";
-import LegacyHealthLogo from "../../assets/Legacy.jpg";
-import KnoahLogo from "../../assets/knoah.jpeg";
+import Cognizant from "../../assets/Cognizant.jpeg";
+import Wipro from "../../assets/Wipro.jpeg";
+import State_of_taxes from "../../assets/State_of_Texas.jpeg";
 
 const Experience = () => {
     const experiences = [
         {
-            title: "Senior Software Developer",
+            title: "Software Engineer II",
+            company: "State of Texas – USA",
+            date: "Feb 2024 – Present",
+            logo: State_of_taxes,
+        },
+        {
+            title: "Software Engineer",
             company: "UBS – USA",
-            date: "June 2023 – Present",
+            date: "Jan 2023 - May 2023",
             logo: UBSLogo,
         },
         {
             title: "Software Developer",
-            company: "BNY Mellon – USA",
-            date: "March 2021 – June 2023",
-            logo: BNYLogo,
+            company: "Wipro - INDIA",
+            date: "Feb 2021 - Dec 2021",
+            logo: Wipro,
         },
         {
-            title: "Software Developer",
-            company: "Legacy Health – USA",
-            date: "March 2019 – Feb 2021",
-            logo: LegacyHealthLogo,
-        },
-        {
-            title: "Software Developer",
-            company: "Knoah Solutions – INDIA",
-            date: "July 2017 – Feb 2019",
-            logo: KnoahLogo,
+            title: "Associate Software Engineer",
+            company: "Cognizant – INDIA",
+            date: "July 2020 – Jan 2021",
+            logo: Cognizant,
         },
     ];
 
