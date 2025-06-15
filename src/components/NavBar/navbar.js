@@ -19,7 +19,7 @@ const Navbar = () => {
                 <Link activeClass='active' to='experience' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">EXPERIENCE</Link>
                 <Link activeClass='active' to='education' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">EDUCATION</Link>
                 <Link activeClass='active' to='skills' spy={true} smooth={true} offset={-10} duration={500} className="desktopMenuListItem">SKILLS</Link>
-                {/* <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">PROJECTS</Link> */}
+                <Link activeClass='active' to='projects' spy={true} smooth={true} offset={-50} duration={500} className="desktopMenuListItem">PROJECTS</Link>
             </div>
 
             {/* Social Media Icons */}
