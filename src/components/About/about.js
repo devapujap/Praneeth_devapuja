@@ -52,15 +52,15 @@ const About = () => {
               <a href="mailto:praneethdevapuja@gmail.com">praneethdevapuja@gmail.com</a>
             </p>
           </div>
-
+          <br></br>
           <div className="about-description">
             {[
-              "It started with curiosity—debugging lines of code late into the night, wondering how software shapes the world.",
-              "Eight years later, I’m still just as curious—but now I build full-stack systems that power fintech, healthcare, and e-commerce.",
-              "I’ve seen how the right line of code can reduce wait times, drive revenue, or protect patient data.",
-              "Every project is a puzzle I love solving—balancing performance, scalability, and user experience.",
-              "Whether leading architecture or collaborating across teams, I’m all in on clean solutions that last.",
-              "Because to me, great software doesn’t just work—it makes a difference.",
+              
+              "I'm a Full Stack Developer with 3+ years of hands-on experience building fast, secure, and ",
+              "cloud-ready applications. I work across the stack with Java (Spring Boot), Angular, React," ,
+              "and cloud platforms like Azure, AWS. I love writing clean, testable code, solving real-world problems,",
+               "and delivering features that make users' lives easier. Whether it’s deploying microservices ",
+               "or fixing a tricky UI bug, I’m all about building software that works — and lasts.",
             ].map((line, index) => (
               <motion.p
                 key={index}
