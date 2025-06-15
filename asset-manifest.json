@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Praneeth_devapuja/static/css/main.45ef121d.css",
-    "main.js": "/Praneeth_devapuja/static/js/main.56304bbf.js",
+    "main.js": "/Praneeth_devapuja/static/js/main.80254238.js",
     "static/media/State_of_Texas.jpeg": "/Praneeth_devapuja/static/media/State_of_Texas.4849939834ddc1356afc.jpeg",
     "static/media/UBS-logo.jpg": "/Praneeth_devapuja/static/media/UBS-logo.8a14859a4fa9ea268f7e.jpg",
     "static/media/Profile.jpeg": "/Praneeth_devapuja/static/media/Profile.5c14ea91209e18138849.jpeg",
@@ -18,10 +18,10 @@
     "static/media/javascript.png": "/Praneeth_devapuja/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/Praneeth_devapuja/index.html",
     "main.45ef121d.css.map": "/Praneeth_devapuja/static/css/main.45ef121d.css.map",
-    "main.56304bbf.js.map": "/Praneeth_devapuja/static/js/main.56304bbf.js.map"
+    "main.80254238.js.map": "/Praneeth_devapuja/static/js/main.80254238.js.map"
   },
   "entrypoints": [
     "static/css/main.45ef121d.css",
-    "static/js/main.56304bbf.js"
+    "static/js/main.80254238.js"
   ]
 }
