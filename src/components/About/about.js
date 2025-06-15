@@ -56,11 +56,10 @@ const About = () => {
           <div className="about-description">
             {[
               
-              "I'm a Full Stack Developer with 3+ years of hands-on experience building fast, secure, and ",
-              "cloud-ready applications. I work across the stack with Java (Spring Boot), Angular, React," ,
-              "and cloud platforms like Azure, AWS. I love writing clean, testable code, solving real-world problems,",
-               "and delivering features that make users' lives easier. Whether it’s deploying microservices ",
-               "or fixing a tricky UI bug, I’m all about building software that works — and lasts.",
+              "I'm a Full Stack Developer with 3+ years of hands-on experience building fast, secure, and cloud-ready applications.",
+              "I work across the stack with Java (Spring Boot), Angular, React, and cloud platforms like Azure, AWS." ,
+              "I love writing clean, testable code, solving real-world problems,and delivering features that make users' lives easier.",
+               "Whether it’s deploying microservices or fixing a tricky UI bug, I’m all about building software that works — and lasts.",
             ].map((line, index) => (
               <motion.p
                 key={index}
