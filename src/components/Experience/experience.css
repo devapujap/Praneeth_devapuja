@@ -8,7 +8,7 @@
 .section-title {
     font-size: 32px;
     font-weight: 800;
-    color: #222;
+    color: #496e92;
     margin-bottom: 40px;
     text-align: center;
     margin-top: 0;
@@ -33,7 +33,7 @@
     transform: translateX(-50%);
     width: 4px;
     height: 100%;
-    background-color: #ec4845;
+    background-color: #496e92;
 }
 
 /* Timeline Items */
@@ -60,7 +60,7 @@
     width: 18px;
     height: 18px;
     background-color: white;
-    border: 4px solid #ec4845;
+    border: 4px solid #496e92;
     border-radius: 50%;
     z-index: 2;
 }
@@ -81,7 +81,7 @@
 
 /* Card Hover */
 .timeline-content:hover {
-    border-color: #ec4845;
+    border-color: #496e92;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
 }
 

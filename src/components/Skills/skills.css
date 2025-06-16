@@ -34,7 +34,7 @@
     transition: transform 0.3s ease-in-out;
     text-align: center;
     min-height: 200px;
-    border-top: 5px solid #ec4845;
+    border-top: 5px solid #496e92;
 }
 
 .skill-card:hover {
@@ -75,7 +75,7 @@
 }
 
 .skill-item:hover {
-    background: #ec4845;
+    background: #496e92;
     color: white;
 }
 

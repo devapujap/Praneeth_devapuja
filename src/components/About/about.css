@@ -1,146 +1,133 @@
 #about {
   min-height: 100vh;
   width: 100%;
-  max-width: 75rem;
-  margin: 0 auto;
-  padding: 0px;
   display: flex;
+  position: relative;
+  justify-content: center;
   align-items: center;
-  justify-content: right;
-}
-body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* Or your preferred font */
-  color: #2d2d2d;
-  background-color: white;
+  padding: 0;
+  background: #fff;
+  overflow: hidden;
 }
 
-/* Layout: Description | Tech Icons */
-.about-container {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  align-items: flex-start;
-  width: 90%;
-}
-
-/* Left Content */
-.about-details {
-  flex: 1;
+.about-center {
   max-width: 700px;
-  padding-top: 75px;
-  padding-top: 0px;
+  z-index: 1;
+  text-align: center;
+  padding: 2rem;
 }
 
 .about-name {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  color: #2d2d2d;
+  color: #1f2937;
 }
 
 .contact-info {
   display: flex;
-  gap: 15px;
-  align-items: center;
-  font-size: 1rem;
-  margin: -29px 0;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 0.5rem;
   flex-wrap: wrap;
 }
 
 .contact-info p {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: crimson;
+  gap: 8px;
+  color: #1f2937;
   font-weight: bold;
-}
-
-.contact-info .icon {
-  color: crimson;
-  font-size: 1.2rem;
 }
 
 .contact-info a {
-  color: crimson;
+  color: #1f2937;
   text-decoration: none;
-  font-weight: bold;
-}
-
-.contact-info a:hover {
-  text-decoration: underline;
 }
 
 .about-description {
+  margin-top: 1.5rem;
   font-size: 1.1rem;
-  color: #555;
+  color: #444;
   line-height: 1.7;
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
   text-align: justify;
 }
-.about-description p {
-  margin: 0;
-}
 
-/* Right-side Tech Stack */
-.tech-right {
-  display: flex;
-  top: 150px;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  flex-shrink: 0;
-  margin-left: 300px;
-  flex-shrink: 0;
-}
-
-.tech-right-item {
+/* Floating Icon Columns */
+.tech-side {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 5px;
+  gap: 2rem;
+  z-index: 0;
 }
 
-.tech-right-icon {
-  width: 36px;
-  height: 36px;
+.left-side {
+  left: 2%;
+  align-items: flex-start;
+}
+
+.right-side {
+  right: 2%;
+  align-items: flex-end;
+}
+
+.side-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.side-icon img {
+  width: 40px;
+  height: 40px;
   object-fit: contain;
-  transition: transform 0.3s ease;
 }
 
-.tech-right-icon:hover {
-  transform: scale(1.2);
-}
-
-.tech-right-label {
+.side-icon span {
   font-size: 0.75rem;
+  margin-top: 0.3rem;
   color: #333;
-  text-align: center;
+}
+
+/* Sparkle / Pop loop animation */
+@keyframes popFade {
+  0% {
+    transform: scale(0.6) rotate(-8deg);
+    opacity: 0;
+    filter: brightness(0.6);
+  }
+  50% {
+    transform: scale(1.15) rotate(5deg);
+    opacity: 1;
+    filter: brightness(1.3);
+  }
+  100% {
+    transform: scale(0.6) rotate(-8deg);
+    opacity: 0;
+    filter: brightness(0.6);
+  }
+}
+
+.pop-animation {
+  animation: popFade 4s ease-in-out infinite;
 }
 
 /* Responsive */
-@media screen and (max-width: 900px) {
-  .about-container {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    position: relative;
+@media (max-width: 768px) {
+  .tech-side {
+    display: none;
   }
 
-  .tech-right {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 30px;
-  }
-
-  .tech-right-item {
-    margin: 10px;
+  .about-center {
+    text-align: left;
+    padding: 0 1rem;
   }
 
   .about-description {
     text-align: left;
   }
 }
+
+

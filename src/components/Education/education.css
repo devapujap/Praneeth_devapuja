@@ -47,6 +47,12 @@
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Card Hover */
+.timeline-content:hover {
+    border-color: #496e92;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+}
+
 /* University Logo */
 .edu-logo {
     width: 80px;  /* Adjust size as needed */
@@ -66,7 +72,7 @@
 .edu-duration {
     font-size: 16px;
     font-weight: 600;
-    color: #c15d3c;
+    color: #1f2937;
 }
 
 /* University Name */

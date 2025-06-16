@@ -1,7 +1,7 @@
+// export default About;
 import React from 'react';
 import './about.css';
 import { FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 // Icons
 import htmlLogo from '../../assets/html.png';
@@ -14,15 +14,6 @@ import gitLogo from '../../assets/git.png';
 import oracleLogo from '../../assets/oracle.png';
 import dockerLogo from '../../assets/docker.png';
 import kubernetesLogo from '../../assets/kubernetes.png';
-
-const fadeIn = {
-  hidden: { opacity: 0, y: 20 },
-  visible: (i) => ({
-    opacity: 1,
-    y: 0,
-    transition: { delay: i * 0.3 },
-  }),
-};
 
 const techStack = [
   { src: htmlLogo, alt: "HTML" },
@@ -38,57 +29,58 @@ const techStack = [
 ];
 
 const About = () => {
+  const leftIcons = techStack.slice(0, 5);
+  const rightIcons = techStack.slice(5);
+
   return (
     <section id="about">
-      <div className="about-container">
-        {/* Left: About Content */}
-        <div className="about-details">
-          <h1 className="about-name">Praneeth Devapuja</h1>
-
-          <div className="contact-info">
-            <p><FaMapMarkerAlt className="icon" />Texas | USA</p>
-            <p>
-              <FaEnvelope className="icon" />
-              <a href="mailto:praneethdevapuja@gmail.com">praneethdevapuja@gmail.com</a>
-            </p>
-          </div>
-          <br></br>
-          <div className="about-description">
-            {[
-              
-              "I'm a Full Stack Developer with around 4 years of hands-on experience building fast, secure, and cloud-ready applications.",
-              "I work across the stack with Java (Spring Boot), Angular, React, and cloud platforms like Azure, AWS." ,
-              "I love writing clean, testable code, solving real-world problems,and delivering features that make users' lives easier.",
-               "Whether it’s deploying microservices or fixing a tricky UI bug, I’m all about building software that works — and lasts.",
-            ].map((line, index) => (
-              <motion.p
-                key={index}
-                custom={index}
-                initial="hidden"
-                animate="visible"
-                variants={fadeIn}
-              >
-                {line}
-              </motion.p>
-            ))}
-          </div>
-        </div>
-
-        {/* Right: Tech Stack */}
-        <div className="tech-right">
-          {techStack.map((tech, index) => (
-            <motion.div
-              key={index}
-              className="tech-right-item"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.2 }}
+      {/* Left-side floating icons */}
+      <div className="tech-side left-side">
+        {leftIcons.map((tech, index) => {
+          const delay = (Math.random() * 5).toFixed(2);
+          return (
+            <div
+              key={tech.alt}
+              className="side-icon pop-animation"
+              style={{ animationDelay: `${delay}s` }}
             >
-              <img src={tech.src} alt={tech.alt} className="tech-right-icon" />
-              <span className="tech-right-label">{tech.alt}</span>
-            </motion.div>
-          ))}
+              <img src={tech.src} alt={tech.alt} />
+              <span>{tech.alt}</span>
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Centered content */}
+      <div className="about-center">
+        <h1 className="about-name">Praneeth Devapuja</h1>
+        <div className="contact-info">
+          <p><FaMapMarkerAlt className="icon" />Texas | USA</p>
+          <p><FaEnvelope className="icon" /><a href="mailto:praneethdevapuja@gmail.com">praneethdevapuja@gmail.com</a></p>
         </div>
+        <div className="about-description">
+          <p>I'm a Full Stack Developer with around 4 years of hands-on experience building fast, secure, and cloud-ready applications.</p>
+          <p>I work across the stack with Java (Spring Boot), Angular, React, and cloud platforms like Azure, AWS.</p>
+          <p>I love writing clean, testable code, solving real-world problems, and delivering features that make users' lives easier.</p>
+          <p>Whether it’s deploying microservices or fixing a tricky UI bug, I’m all about building software that works — and lasts.</p>
+        </div>
+      </div>
+
+      {/* Right-side floating icons */}
+      <div className="tech-side right-side">
+        {rightIcons.map((tech, index) => {
+          const delay = (Math.random() * 5).toFixed(2);
+          return (
+            <div
+              key={tech.alt}
+              className="side-icon pop-animation"
+              style={{ animationDelay: `${delay}s` }}
+            >
+              <img src={tech.src} alt={tech.alt} />
+              <span>{tech.alt}</span>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
