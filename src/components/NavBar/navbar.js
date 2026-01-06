@@ -24,9 +24,9 @@ const Navbar = () => {
 
             {/* Social Media Icons */}
             <div className="social-icons">
-                <a href="https://www.linkedin.com/in/praneeth-d-aa3b5a107" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://www.linkedin.com/in/praneeth-d-aa3b5a107" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin className="social-icon linkedin" />
-                </a>
+                </a> */}
                 <a href="https://github.com/devapujap" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="social-icon github" />
                 </a>
