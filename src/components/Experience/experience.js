@@ -1,35 +1,28 @@
 import React from "react";
 import "./experience.css";
-import UBSLogo from "../../assets/UBS-logo.jpg";
-import Cognizent from "../../assets/Cognizant.jpeg";
-import State_of_Texas from "../../assets/State_of_Texas.jpeg";
-import Wipro from "../../assets/Wipro.jpeg";
+import morganstanley from "../../assets/morgan-stanley.png";
+import VRITECH from "../../assets/VRITECH.jpg";
+import Invesco from "../../assets/Invesco-Ltd.webp";
 
 const Experience = () => {
     const experiences = [
         {
-            title: "Software Engineer",
-            company: "State of Texas – USA",
-            date: "Feb 2024 – Present",
-            logo: State_of_Texas,
+            title: "Full Stack Java Developer",
+            company: "VRI TECH Consulting LLC - USA",
+            date: "Sept 2024 – Present",
+            logo: VRITECH,
         },
         {
-            title: "Software Engineer",
-            company: "UBS – USA",
-            date: "Jan 2023 - May 2023",
-            logo: UBSLogo,
+            title: "Full Stack Java Developer",
+            company: "Morgan Stanley – USA",
+            date: "Jun 2023 - Aug 2024",
+            logo: morganstanley,
         },
         {
-            title: "Software Developer",
-            company: "Wipro – INDIA",
-            date: "Feb 2021 - Dec 2021",
-            logo: Wipro,
-        },
-        {
-            title: "Asscoiate Software Engineer",
-            company: "Cognizant – INDIA",
-            date: "Jul 2020 - Jan 2021",
-            logo: Cognizent,
+            title: "Java Developer",
+            company: "Invesco – INDIA",
+            date: "Jul 2019 - Dec 2021",
+            logo: Invesco,
         },
     ];
 

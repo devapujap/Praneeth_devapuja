@@ -59,7 +59,7 @@ const About = () => {
           <p><FaEnvelope className="icon" /><a href="mailto:praneethdevapuja@gmail.com">praneethdevapuja@gmail.com</a></p>
         </div>
         <div className="about-description">
-          <p>I'm a Full Stack Developer with around 4 years of hands-on experience building fast, secure, and cloud-ready applications.</p>
+          <p>I'm a Full Stack Developer with around 4+ years of hands-on experience building fast, secure, and cloud-ready applications.</p>
           <p>I work across the stack with Java (Spring Boot), Angular, React, and cloud platforms like Azure, AWS.</p>
           <p>I love writing clean, testable code, solving real-world problems, and delivering features that make users' lives easier.</p>
           <p>Whether it’s deploying microservices or fixing a tricky UI bug, I’m all about building software that works — and lasts.</p>
