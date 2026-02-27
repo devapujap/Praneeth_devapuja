@@ -1,11 +1,9 @@
 {
   "files": {
     "main.css": "/Praneeth_devapuja/static/css/main.4e4c8b37.css",
-    "main.js": "/Praneeth_devapuja/static/js/main.7f98a0c6.js",
-    "static/media/State_of_Texas.jpeg": "/Praneeth_devapuja/static/media/State_of_Texas.4849939834ddc1356afc.jpeg",
-    "static/media/UBS-logo.jpg": "/Praneeth_devapuja/static/media/UBS-logo.8a14859a4fa9ea268f7e.jpg",
+    "main.js": "/Praneeth_devapuja/static/js/main.7fdc14cf.js",
+    "static/media/VRITECH.jpg": "/Praneeth_devapuja/static/media/VRITECH.985c7524ede083ff0a2c.jpg",
     "static/media/Profile.jpeg": "/Praneeth_devapuja/static/media/Profile.5c14ea91209e18138849.jpeg",
-    "static/media/Cognizant.jpeg": "/Praneeth_devapuja/static/media/Cognizant.69dd18cb9be3819b09e8.jpeg",
     "static/media/kubernetes.png": "/Praneeth_devapuja/static/media/kubernetes.7cdb846c2eabcda532bb.png",
     "static/media/react.png": "/Praneeth_devapuja/static/media/react.35639ed930462bfcd544.png",
     "static/media/node.png": "/Praneeth_devapuja/static/media/node.007e99f68b718e476aba.png",
@@ -13,15 +11,16 @@
     "static/media/SAU_seal.png": "/Praneeth_devapuja/static/media/SAU_seal.d7168bc2089cc2e4e6e7.png",
     "static/media/git.png": "/Praneeth_devapuja/static/media/git.63b94516b0c8926a967f.png",
     "static/media/html.png": "/Praneeth_devapuja/static/media/html.b2db3a7f6897f0a6e75c.png",
+    "static/media/Invesco-Ltd.webp": "/Praneeth_devapuja/static/media/Invesco-Ltd.55eff931d614dfccc09c.webp",
     "static/media/css.png": "/Praneeth_devapuja/static/media/css.4a6549b8c2b4cda8bb88.png",
     "static/media/oracle.png": "/Praneeth_devapuja/static/media/oracle.4901d25e592f0aec9d2c.png",
     "static/media/javascript.png": "/Praneeth_devapuja/static/media/javascript.3dfb665e058d08c99f28.png",
     "index.html": "/Praneeth_devapuja/index.html",
     "main.4e4c8b37.css.map": "/Praneeth_devapuja/static/css/main.4e4c8b37.css.map",
-    "main.7f98a0c6.js.map": "/Praneeth_devapuja/static/js/main.7f98a0c6.js.map"
+    "main.7fdc14cf.js.map": "/Praneeth_devapuja/static/js/main.7fdc14cf.js.map"
   },
   "entrypoints": [
     "static/css/main.4e4c8b37.css",
-    "static/js/main.7f98a0c6.js"
+    "static/js/main.7fdc14cf.js"
   ]
 }
